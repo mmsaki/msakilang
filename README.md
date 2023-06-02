@@ -27,7 +27,7 @@ npm install --save-dev jest
 1. Syntactic analysis
 1. Psychoanalysis
 
-> how might a lexer work
+> how might a lexer work?
 
 1. Accept an input string of code.
 1. Create a variable for tracking our position, like a cursor.
@@ -35,6 +35,18 @@ npm install --save-dev jest
 1. Write a while loop that iterates through the source code input.
 1. Check each token. See if it matches one of your types.
 1. Add it to the array of tokens.
+
+## parsing
+
+1. see [AST Explorer](https://astexplorer.net/#/gist/1819fd0f4c1e3690539a1257c054016a/bc5b7c792483456d5a48ba5c668acde715b9a6ab)
+1. see [estree spec](https://github.com/estree/estree#the-estree-spec)
+
+## repl
+
+1. **R**ead
+1. **E**valuate
+1. **P**rint
+1. **L**oop
 
 ## resources
 
