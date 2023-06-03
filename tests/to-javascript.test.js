@@ -21,4 +21,14 @@ describe(toJavaScript, () => {
 
     expect(toJavaScript(ast)).toBe('add(2, 3, subtract(5, 4))');
   });
+
+  it('Should support varibles', () => {
+    const ast = {
+      type: 'VariableDeclaration',
+      identifier: { type: 'Identifier', name: 'x' },
+      assignment: { type: 'NumericLiteral', value: 2 },
+    };
+
+    expect(toJavaScript(ast)).toBe('let x = 2;');
+  });
 });
