@@ -49,8 +49,17 @@ npm install --save-dev jest
 
 ### a) Parsing
 
+```zsh
+npm test parse.test
+```
+
 1. **Lexical analysis**: take a string of code and turn it into tokens
    ![lexical tokenization](./images/lexing-tokens.png)
+
+   ```zsh
+   npm test tokenize.test
+   ```
+
 1. Syntactic analysis
 1. Psychoanalysis
 
@@ -72,6 +81,9 @@ Example resources
 
 1. **R**ead
 1. **E**valuate
+   ```zsh
+   npm test evaluate.test
+   ```
 1. **P**rint
 1. **L**oop
 
@@ -81,6 +93,11 @@ Example resources
 1. The visitor pattern form [Design Patterns](https://www.oreilly.com/library/view/design-patterns-elements/0201633612/)
 
    - we do a [depth-first search]() on the tree
+   - we should be able travel to all the nodes in the ast tree
+
+   ```zsh
+   npm test traverse.test
+   ```
 
 ## c) Code Generation options
 
@@ -96,7 +113,15 @@ you can also use the reverse from babel but we create our own
 
 we can create a `toJavascript` transformation using the babel parser and make our ast to somthing like this
 
+Run:
+
+```zsh
+npm test to-javascript.test
+```
+
 ![babel add ast](./images/babel-parser.png)
+
+## d) Other features: Variable declaration
 
 ## Documnentation
 
