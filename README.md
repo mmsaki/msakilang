@@ -1,5 +1,31 @@
 # msakilang: building a programming language
 
+1. Install language, clone this repo then:
+   ```zsh
+   npm link
+   ```
+1. Run this in terminal for REPL:
+
+   ```js
+   ? > (add pi 1)
+   4.141592653589793
+   ? > (add pi 0)
+   NaN
+   ? > (add pi 1 (subtract 1 2))
+   3.141592653589793
+   ? >
+   ```
+
+1. Run speficic files in a `.msaki` extension
+
+   ```zsh
+   msaki run examples/example.msaki
+   ```
+
+   ```msaki
+
+   ```
+
 ## Getting Started
 
 Make sure you have the testing framework [jest](https://jestjs.io/docs/getting-started)

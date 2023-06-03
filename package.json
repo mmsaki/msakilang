@@ -7,7 +7,11 @@
     "example": "examples",
     "test": "tests"
   },
+	"bin": {
+		"msaki": "bin/msakilang"
+	},
   "scripts": {
+    "start": "node src/repl.js",
     "test": "jest"
   },
   "repository": {
