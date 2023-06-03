@@ -18,12 +18,13 @@
 
 1. Run speficic files in a `.msaki` extension
 
-   ```zsh
-   msaki run examples/example.msaki
+   ```js
+   // example.msaki
+   (add pi (subtract 3 (multiply 3 (min 1 (max 1 2 3 (modulo 1000 3))))))
    ```
 
-   ```js
-   (add pi (subtract 3 (multiply 3 (min 1 (max 1 2 3 (modulo 1000 3))))))
+   ```zsh
+   msaki run examples/example.msaki
    ```
 
 ## Getting Started
