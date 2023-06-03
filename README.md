@@ -41,7 +41,7 @@ npm install --save-dev jest
 - Eloquent javascript Chapter 12 - [Egg programming language](https://eloquentjavascript.net/12_language.html)
 - Jamie Kyle's [Super tiny compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)
 
-## 1. Stages of a compiler
+## Stages of a compiler
 
 1. **Parsing**: take source code and turn it to a representation of that code
 1. **Trasnformation**: take source code ans turn it to whatever the compiler wants it to do
@@ -63,7 +63,7 @@ npm install --save-dev jest
 1. Check each token. See if it matches one of your types.
 1. Add it to the array of tokens.
 
-## parsing
+Example resources
 
 1. see [AST Explorer](https://astexplorer.net/#/gist/1819fd0f4c1e3690539a1257c054016a/bc5b7c792483456d5a48ba5c668acde715b9a6ab)
 1. see [estree spec](https://github.com/estree/estree#the-estree-spec)
@@ -75,6 +75,6 @@ npm install --save-dev jest
 1. **P**rint
 1. **L**oop
 
-## resources
+## Documnentation
 
 You can follow along [here](http://static.frontendmasters.com/resources/2019-05-31-build-your-own-programming-language/programming-language.pdf)
